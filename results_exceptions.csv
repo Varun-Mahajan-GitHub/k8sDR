@@ -1,0 +1,10 @@
+Count,Message,Traceback,Nodes
+134,'details',"  File ""/Users/varunmahajan/PycharmProjects/mobileperformancetest/venv/lib/python3.7/site-packages/locust/user/task.py"", line 347, in run
+    self.execute_next_task()
+  File ""/Users/varunmahajan/PycharmProjects/mobileperformancetest/venv/lib/python3.7/site-packages/locust/user/task.py"", line 372, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File ""/Users/varunmahajan/PycharmProjects/mobileperformancetest/venv/lib/python3.7/site-packages/locust/user/task.py"", line 493, in execute_task
+    task(self.user)
+  File ""/Users/varunmahajan/PycharmProjects/mobileperformancetest/locustfile.py"", line 53, in create_playlist_and_add_content_to_it
+    list_id = data['details']['id']
+",local
