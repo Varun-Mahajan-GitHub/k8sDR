@@ -37,7 +37,7 @@ To run the performance tests, follow these steps:
 3. Execute the following command:
 
 ```
- git locust -f locustfile.py -u 10 -r 10 --run-time 200s --host=https://staging.jiosaavn.com --csv=results --html=output.html            
+ locust -f locustfile.py -u 10 -r 10 --run-time 200s --host=https://staging.jiosaavn.com --csv=results --html=output.html            
 
 ```
 
