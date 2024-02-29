@@ -1,8 +1,5 @@
-import random
-import string
-import time
 import logging
-from data.test_data import TestData
+from test_data import TestData
 from locust import HttpUser, task, events
 
 
