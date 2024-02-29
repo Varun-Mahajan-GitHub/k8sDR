@@ -2,7 +2,6 @@ import logging
 from test_data import TestData
 from locust import HttpUser, task, events
 
-
 @events.quitting.add_listener
 def _(environment, **kw):
     if environment.stats.total.fail_ratio > 0.01:
